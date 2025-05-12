@@ -1,0 +1,22 @@
+Namespace(dataset='test_cancer_full_expression_pc50_string2.pkl', device=1, epochs=200, log_steps=10, model='sage_neighsampler', networks='string')
+Model sage_neighsampler initialized
+Epoch: 10, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 20, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 30, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 40, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 50, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 60, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 70, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 80, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 90, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 100, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 110, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 120, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 130, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 140, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 150, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 160, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 170, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 180, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 190, Loss: nan, Train: nan%, Valid: nan% Test: nan%
+Epoch: 200, Loss: nan, Train: nan%, Valid: nan% Test: nan%
