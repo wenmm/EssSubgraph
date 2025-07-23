@@ -63,7 +63,7 @@ python EssSubgraph.py --epochs 200 --device 0 --dataset ./data/esssubgraph_human
 ### Docker Setup
 To ensure reproducibility, build and run the project with Docker:
 ```
-#Run Docker Container
+#Build Docker Image
 docker build -t esssubgraph .
 
 #Run Docker Container
