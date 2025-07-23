@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 from sklearn import preprocessing
 
 
-gene_df = pd.read_csv('/home/hwen6/database/gene_expression_prediction/cancer_full_expression.tsv', sep='\t')
+gene_df = pd.read_csv('../data/cancer_full_expression.tsv', sep='\t')
 
 for i in [2]:
     pca = PCA(n_components=i)
@@ -35,5 +35,5 @@ for i in [2]:
 
     a.index = gene_df['sample']
 
-    a.to_csv("/home/hwen6/database/gene_expression_prediction/20250529_new/cancer_full_expression_pc"+str(i) + ".csv")
+    a.to_csv("../data/cancer_full_expression_pc"+str(i) + ".csv")
 
