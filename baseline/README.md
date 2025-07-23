@@ -30,6 +30,8 @@ python run_baselines.py --is_5_CV_test True --dataset_file ./data/STRING_pc50.pk
 - deepwalk
 ```
 python run_baselines.py --is_5_CV_test True --dataset_file ./data/STRING_deepwalk_feature.pkl --model SVM --epochs 200 --lr 0.01 --device 0
+
+
 ```
 
 - XGEP
@@ -38,6 +40,7 @@ python run_baselines.py --is_5_CV_test True --dataset_file ./data/STRING_xgep_fe
 ```
 
 - DeepHE
+
 See [DeepHE](https://github.com/xzhang2016/DeepHE/tree/master) for detail explanation.
 ```
 python main.py --embedF 3 --result_dir ./string_pc50 --numHiddenLayer 3
