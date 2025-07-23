@@ -30,8 +30,6 @@ python run_baselines.py --is_5_CV_test True --dataset_file ./data/STRING_pc50.pk
 - deepwalk
 ```
 python run_baselines.py --is_5_CV_test True --dataset_file ./data/STRING_deepwalk_feature.pkl --model SVM --epochs 200 --lr 0.01 --device 0
-
-
 ```
 
 - XGEP
