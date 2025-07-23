@@ -53,7 +53,7 @@ python generate_pca.py
 
 ### Dataset build
 
-run the script `build_dataset_container.ipynb`
+run the script `build_dataset_container.ipynb` or `python ./script/build_dataset_container.py`
 
 ### Usage
 ```
