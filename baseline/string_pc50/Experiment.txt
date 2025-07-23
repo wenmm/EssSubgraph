@@ -1,3 +1,0 @@
-Experiment Name: Experiment
-
-Iteration	ROC_AUC	Avg. Precision	Sensitivity	Specificity	PPV	Accuracy
