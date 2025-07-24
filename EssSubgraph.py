@@ -124,7 +124,6 @@ def main():
     parser.add_argument('--log_steps', type=int, default=10)
     parser.add_argument('--model', type=str, default='sage_neighsampler')
     parser.add_argument('--epochs', type=int, default=10)
-    parser.add_argument('--networks', type=str, default='string')
     
     args = parser.parse_args()
     print(args)
