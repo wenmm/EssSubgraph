@@ -91,11 +91,14 @@ docker build -t esssubgraph .
 docker run -it -v $(pwd):/app esssubgraph
 ```
 
+### Benchmark Models
+To reproduce performance comparisons with other models, scripts under `\baseline` can be used.
+
 ## License
 GNU General Public License v3.0 (see `LICENSE`).
 
 ## Contact
-If you have any questions, feel free to contact me through Email (dal462929@utdallas.edu) or Github issues. Pull requests are highly welcomed!
+If you have any questions, feel free to contact me through Email (dal462929@utdallas.edu) or Github issues. Pull requests are highly welcome!
 
 
 
