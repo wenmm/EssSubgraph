@@ -52,8 +52,23 @@ python generate_pca.py
 ```
 
 ### Dataset build
+···
+python build_dataset_container.py \
+    --network ./data/string_net.txt \
+    --essential ./data/Essential_genes \
+    --nonessential ./data/Non_essential_genes \
+    --features ./data/cancer_full_expression_pc50.csv \
+    --output esssubgraph_human_pc50.pkl
+```
+The detailed descriptions about the arguments are as following:
+| Argument         | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| `--network`    | Path to the network file (e.g., `/path/to/string_net.txt`). Specifies the gene interaction network to process. |
+| `--essential`  | Path to the essential genes file (e.g., `../data/Essential_genes`). Lists genes critical for cell survival. |
+| `--nonessential` | Path to the non-essential genes file (e.g., `../data/Non_essential_genes`). Lists non-critical genes. |
+| `--features`  | Path to the gene feature CSV file. Contains node feature data (e.g., gene expression PC50 features). |
+| `--output`      Output pickle file name for the PyTorch Geometric dataset. The network name is appended (e.g., `esssubgraph_human_pc50_string.pkl`). |
 
-run the script `build_dataset_container.ipynb` or `python ./script/build_dataset_container.py`
 
 ### Usage
 ```
