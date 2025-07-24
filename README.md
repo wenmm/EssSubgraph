@@ -58,10 +58,10 @@ python build_dataset_container.py \
     --essential ./data/Essential_genes \
     --nonessential ./data/Non_essential_genes \
     --features ./data/cancer_full_expression_pc50.csv \
-    --output esssubgraph_human_pc50.pkl
+    --output esssubgraph_human_pc50_string.pkl
 ```
 The detailed descriptions about the arguments are as following:
-| Argument         | Description                                                                 |
+| Parameter name         | Description                                                                 |
 |-------------------------------|-------------------------------------------------------------------------|
 | `--network`       | Path to the network file (e.g., `/path/to/string_net.txt`). Specifies the gene interaction network to process. |
 | `--essential`     | Path to the essential genes file (e.g., `../data/Essential_genes`). Lists genes critical for cell survival. |
@@ -74,6 +74,12 @@ The detailed descriptions about the arguments are as following:
 ```
 python EssSubgraph.py --epochs 200 --device 0 --dataset ./data/esssubgraph_human_pc50_string.pkl
 ```
+The detailed descriptions about the arguments are as following:
+| Parameter name | Description of parameter |
+| --- | --- |
+| --dataset         | The path of the input pkl file             |
+| --epochs    | Number of epochs to train the model (defaults to 200) |
+| device | Device id of gpus (defaults to 0)|
 
 ### Docker Setup
 To ensure reproducibility, build and run the project with Docker:
