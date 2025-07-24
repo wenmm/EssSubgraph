@@ -52,7 +52,7 @@ python generate_pca.py
 ```
 
 ### Dataset build
-···
+```
 python build_dataset_container.py \
     --network ./data/string_net.txt \
     --essential ./data/Essential_genes \
