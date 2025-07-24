@@ -92,7 +92,7 @@ docker run -it -v $(pwd):/app esssubgraph
 ```
 
 ### Benchmark Models
-To reproduce performance comparisons with other models, scripts under `\baseline` can be used.
+To reproduce performance comparisons with other models, scripts under `/baseline` can be used.
 
 ## License
 GNU General Public License v3.0 (see `LICENSE`).
