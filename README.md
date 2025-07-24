@@ -62,7 +62,7 @@ python build_dataset_container.py \
 ```
 The detailed descriptions about the arguments are as following:
 | Argument         | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
+|----------------------|-------------------------------------------------------------------------|
 | `--network`       | Path to the network file (e.g., `/path/to/string_net.txt`). Specifies the gene interaction network to process. |
 | `--essential`     | Path to the essential genes file (e.g., `../data/Essential_genes`). Lists genes critical for cell survival. |
 | `--nonessential`  | Path to the non-essential genes file (e.g., `../data/Non_essential_genes`). Lists non-critical genes. |
