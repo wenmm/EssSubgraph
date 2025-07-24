@@ -70,7 +70,7 @@ docker build -t esssubgraph .
 docker run -it -v $(pwd):/app esssubgraph
 ```
 
-### License
+## License
 GNU General Public License v3.0 (see `LICENSE`).
 
 ## Contact
