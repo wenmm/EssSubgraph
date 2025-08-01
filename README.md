@@ -35,13 +35,13 @@ pip install -r requirements.txt
 ## Reproducibility
 ### Network Preprocessing
 EssSubgraph was tested with 7 different protein-protein interaction (PPI )networks, namely:
-* [BioGRID](https://downloads.thebiogrid.org/File/BioGRID/Release-Archive/BIOGRID-4.4.247/BIOGRID-ALL-4.4.247.tab2.zip)
-* [ConsensusPathDB](http://cpdb.molgen.mpg.de/download/ConsensusPathDB_human_PPI.gz)
-* [HumanNet](https://www.inetbio.org/humannet/networks/HS-PI.symbol.tsv.gz)
-* [iRefIndex](http://irefindex.org/download/irefindex/data/archive/release_14.0/psi_mitab/MITAB2.6/9606.mitab.07042015.txt.zip)
+* [BioGRID](https://downloads.thebiogrid.org)
+* [ConsensusPathDB](http://cpdb.molgen.mpg.de/)
+* [HumanNet](https://www.inetbio.org/humannet/)
+* [iRefIndex](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-405)
 * [Pathway Commons](https://download.baderlab.org/PathwayCommons/PC2/v12/PathwayCommons12.All.hgnc.txt.gz)
-* [PCNet](https://www.ndexbio.org/index.html#/networkset/e8ebbdde-86dc-11e7-a10d-0ac135e8bacf?accesskey=7fbd23635b798321954e66c63526c46397a3f45b40298cf43f22d07d4feed0fa)
-* [STRING](https://stringdb-downloads.org/download/protein.links.detailed.v12.0.txt.gz)
+* [PCNet](https://www.cell.com/cell-systems/pdf/S2405-4712(18)30095-4.pdf)
+* [STRING](https://string-db.org/)
 
 The network was constructed using the tutorial from [Network Evaluation Tools](https://github.com/idekerlab/Network_Evaluation_Tools/tree/master).
 
