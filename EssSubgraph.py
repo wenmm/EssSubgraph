@@ -133,9 +133,7 @@ def main():
     
     device = f'cuda:{args.device}' if torch.cuda.is_available() else 'cpu'
     device = torch.device(device)
-
-    #dataset = XYGraphP1(root='./', name='xydata', transform=T.ToSparseTensor())
-    #dataset = load_obj('/home/hwen6/gongju/one_net_subnetwork/dep_essential_task_subgraph_{}.pkl'.format(args.networks))
+    
     dataset = load_obj(args.dataset)
 
     nlabels = 2
@@ -182,7 +180,7 @@ def main():
                 model.reset_parameters()
                 optimizer = torch.optim.Adam(model.parameters(), lr=para_dict['lr'], weight_decay=para_dict['l2'])
                 min_valid_loss = 1e8
-                loss_op = nn.BCEWithLogitsLoss()
+                loss_op = nn.BCEWithLogitsLoss(pos_weight=torch.tensor([4.0]).to(device))
 
 
                 for epoch in range(1, args.epochs+1):
@@ -253,3 +251,4 @@ if __name__ == "__main__":
     print("--- %s seconds ---" % (time.time() - start_time))
 
     
+
