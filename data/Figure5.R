@@ -77,7 +77,7 @@ ggarrange(p1, p2,
           labels = c("A", "B"))
 
 
-
+# Figure S6B
 library(VennDiagram)
 venn.plot <- draw.pairwise.venn(
   area1 = 2299,    # 集合A大小
@@ -92,12 +92,20 @@ venn.plot <- draw.pairwise.venn(
   cat.dist = 0.05
 )
 
-#BP
+# Figure 5C
 library(VennDiagram)
 venn.plot <- draw.pairwise.venn(
   area1 = 888,    # 集合A大小
   area2 = 601 ,    # 集合B大小
   cross.area = 589, # A和B的交集大小
+
+
+
+
+
+
+
+
   category = c("Predicted Essential Genes","Ground Truth"),
   fill = c("#9589C1","#51c4d3"),
   lty = "blank",
@@ -108,4 +116,5 @@ venn.plot <- draw.pairwise.venn(
 )
 
 dev.off()
+
 
