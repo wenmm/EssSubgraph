@@ -9,16 +9,16 @@ Each file corresponds to a specific figure as described below:
 **Figure2.R**: 
 pc_compare.txt, 
 methods_prauc_compare.txt (for Figure 2 panel A, B, C)
-**Figure2DE_FigureS7.html**: 
-Homo_Experiment_False_positives.txt，
-Homo_Experiment_True_positives.txt,
-Homo_Experiment_precision.txt,
-Homo_Experiment_recall.txt,
-Homo_string_EMOGI.pkl,
-Homo_string_EssSubgraph.pkl,
-Homo_string_GAT.pkl,
-Homo_string_GCN.pkl,
-Homo_string_MTGCN.pkl (for Figure 2 panel D, E)
+**Figure2DE_FigureS7.html**:  
+Homo_Experiment_False_positives.txt,  
+Homo_Experiment_True_positives.txt,  
+Homo_Experiment_precision.txt,  
+Homo_Experiment_recall.txt,  
+Homo_string_EMOGI.pkl,  
+Homo_string_EssSubgraph.pkl,  
+Homo_string_GAT.pkl,  
+Homo_string_GCN.pkl,  
+Homo_string_MTGCN.pkl (for Figure 2 panel D, E)  
 
 
 
@@ -48,6 +48,7 @@ FigureS6_best_essential_gene_cutoff.html, esssubgraph_human_pc50_string.y, Figur
 
 ## **Figure S7**:
 Figure2DE_FigureS7.html, Mus_Experiment_False_positives.txt, Mus_Experiment_True_positives.txt, Mus_Experiment_precision.txt, Mus_Experiment_recall.txt, Mus_string_GAT.pkl, Mus_string_EMOGI.pkl, Mus_string_GCN.pkl, Mus_string_EssSubgraph.pkl, Mus_string_MTGCN.pkl
+
 
 
 
