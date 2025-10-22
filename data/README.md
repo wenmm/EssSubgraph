@@ -84,6 +84,10 @@ Mus_string_EssSubgraph.pkl,
 Mus_string_MTGCN.pkl
 
 
+## **License**  
+All processed data in this repository are released under the CC0 1.0 Universal (Public Domain Dedication) license.
+You are free to copy, modify, distribute, and use the data for any purpose, even commercially, without asking permission.
+
 
 
 
