@@ -39,11 +39,11 @@ essential_BP.csv,
 top_subgraph_essential_BP.csv,   
 top_essential_BP.csv
 
-## **Figure 6**:  
-Model_all_train_result.log    
-Model_P1_part_train_inference_graph.log
-Model_P2_part_train_inference_pca.log  
-Model_P3_part_train_inference_both_graph_pca.log
+## **Figure 6**:    
+Model_all_train_result.log      
+Model_P1_part_train_inference_graph.log  
+Model_P2_part_train_inference_pca.log    
+Model_P3_part_train_inference_both_graph_pca.log  
 
 ## **Figure S2**:
 **FigureS2_nbetwork_pertubation_setup.ipynb**:   
@@ -82,6 +82,7 @@ Mus_string_EMOGI.pkl,
 Mus_string_GCN.pkl,   
 Mus_string_EssSubgraph.pkl,   
 Mus_string_MTGCN.pkl
+
 
 
 
